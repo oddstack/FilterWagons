@@ -15,7 +15,7 @@ function update_train(train, wagon)
 		wagon.set_filter(1, "iron-plate")
 		local inv = wagon.get_inventory(defines.inventory.cargo_wagon)
 		
-		local inv.set_filter(1, "iron-plate")
+		inv.set_filter(1, "iron-plate")
 		
 		canSup = inv.supports_filters()
 		if (canSup) then
