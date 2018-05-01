@@ -17,7 +17,6 @@ function update_train(train, wagon)
 		
 		inv.set_filter(1, "iron-plate")
 		
-		
 		canSup = inv.supports_filters()
 		if (canSup) then
 			print("waiting true " .. inv.get_filter(1))
